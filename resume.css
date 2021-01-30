@@ -1,0 +1,240 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+
+p,li{
+    padding-bottom: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    color: #434242;
+    line-height: 1.4em;
+    
+}
+ul{
+    padding: 0px 15px 15px 15px;
+    list-style-type: none;
+}
+.top-part{
+    height: 100vh;
+    background-color: #22A39F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 63px;
+    color: #FFFFFF;
+}
+.top-container span{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 28px;
+    color: #FFFFFF;
+    font-weight: 300;
+}
+
+.my-name{
+    padding: 20px;
+    margin:15px;
+    border-bottom: solid 0.5px #ffffff;
+}
+
+.profile, .experience{
+    padding: 40px 140px 60px 140px;
+    margin: 0 198px 0 198px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.experience{
+    padding: 40px 140px 20px 140px;
+}
+
+.profile h2, .experience h2,h4{
+    color: #22A39F;
+    font-size: 54px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
+    margin: 20px 0 20px 0;
+}
+
+.profile span, .experience span{
+    font-family: 'Roboto Mono', monospace;
+    color:#727878;
+    font-size: 21px;
+    font-weight: 300;
+}
+
+.quote{
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+.profile-content,.skill-content{
+    display: flex;
+    padding-top: 40px;
+    border-top: solid 1px rgb(215, 215, 215);
+    justify-content: center;
+}
+
+.skill-content{
+    width: 100%;
+}
+
+h3{
+    color: #22A39F;
+    font-size: 28px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 300;
+    padding: 20px 0 20px 0;
+}
+
+.profile-col img{
+    padding-top: 20px;
+    padding-right: 60px;
+    
+
+}
+.profile-pic{
+    flex:1;
+}
+.about-me{
+    flex:5;
+}
+
+.experience-part{
+    background-color: #F3EFE0;
+}
+
+.education-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    border-top: solid 1px rgb(215, 215, 215);
+    border-bottom: solid 1px rgb(215, 215, 215);;
+    
+}
+
+.career-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 40px;
+   
+    border-bottom: solid 1px rgb(215, 215, 215);
+    
+}
+
+.education-col,.volunteer-col{
+    flex: 1;
+}
+
+li::before {content: "\25AA"; color: #434242;
+    display: inline-block; width: 1em;
+    margin-left: -1em}
+
+
+.volunteer-col h4,.career-col h4,.career-col2 h4{
+    font-size: 15px;
+    margin: 0;
+    color:#434242;
+    padding-bottom: 20px;
+    font-weight: 400;
+}
+
+.volunteer-col,.career-col2{
+    margin-left: 40px;
+}
+
+.part-time{
+    width: 100%;
+}
+
+.part-col{
+    flex:1.5;
+}
+
+.part-col2{
+    flex:2;
+}
+
+.finstreet{
+    border-bottom: solid 0px rgb(215, 215, 215);
+}
+
+.career{
+    flex:1
+}
+
+.part-time{
+    padding-top: 20px;
+}
+
+.finstreet h4{
+    font-size: 16px;
+}
+
+.skill-col{
+    display: flex;
+    flex:1;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.skill-col h3{
+    text-align: center;
+    flex:1;
+}
+
+a{
+    color:#434242;
+}
+
+a:hover{
+    color:#22A39F;
+}
+
+.skill-col li{
+    font-size: 14px;
+}
+
+.skill-col ul{
+    flex:5;
+}
+
+.skill-col img{
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    flex:1.5;
+}
+
+.skill-space{
+    margin-left: 5%;
+    margin-right: 5%;
+}
