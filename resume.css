@@ -292,6 +292,22 @@ a:hover{
     padding-bottom: 20vh;
 }
 
+.project-content{
+    padding-top: 0;
+    border-top: solid 0px #727878;
+    border-bottom: solid 0px #727878;
+}
+
+.compet{
+    padding-top: 0;
+}
+
+figure{
+    overflow: hidden;
+    position: relative;
+}
+
+
 @media (min-width: 768px) and (max-width: 1024px){
     .profile, .experience{
         padding: 40px 4vw 60px 4vw;
@@ -378,6 +394,29 @@ a:hover{
     .volunteer-col h3, .education-col h3{
         margin-bottom: 20px;
     }
+
+    .project-col{
+        padding-bottom: 40px;
+    }
+
+    #contact2{
+       
+        padding-top:15px;
+        padding-bottom: 30px;
     
+    }
+
+    #contact1{
+        padding-top: 15px;
+    }
+    
+    .contact-part h2{
+        color:#FFFFFF;
+    }
+
+    .skill-space{
+        margin-left: 0;
+        margin-right: 0;
+    }
   }
 
